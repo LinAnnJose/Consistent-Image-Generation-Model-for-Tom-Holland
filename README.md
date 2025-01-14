@@ -9,13 +9,11 @@ It performs three major tasks:
 Here’s a detailed breakdown of each section of the code:
 1. Mount Google Drive:
   Mounts Google Drive so that you can access the files stored in it, including images or datasets used for training, and saves generated outputs.
-
 3. Package Installation:
 Installs various necessary libraries:
-
-autotrain-advanced: Used for simplifying training and fine-tuning models, particularly for tasks like image generation.
-albumentations: Data augmentation library to improve model robustness.
-torch, transformers, diffusers: Core libraries for working with deep learning, NLP, and diffusion models.
+**autotrain-advanced**: Used for simplifying training and fine-tuning models, particularly for tasks like image generation.
+**albumentations**: Data augmentation library to improve model robustness.
+**torch, transformers, diffusers**: Core libraries for working with deep learning, NLP, and diffusion models.
 Other libraries like pandas, nltk, and scikit-learn provide utilities for data processing, evaluation, and machine learning.
 
 5. Hugging Face Login:
