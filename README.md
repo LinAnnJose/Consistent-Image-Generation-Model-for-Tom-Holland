@@ -56,3 +56,5 @@ pipe.load_lora_weights(): Loads the fine-tuned weights from a Hugging Face model
 pipe.enable_model_cpu_offload(): Optimizes memory usage by offloading parts of the model to the CPU when not actively used, reducing GPU memory consumption.
 Prompt: The text prompt ("Photo of TomHolland") is passed to the pipeline to generate an image based on the fine-tuned model.
 Image Generation: The generated image is saved as a PNG file.
+This pipeline leverages both DreamBooth for training on custom images and the Diffusers library for performing high-quality inference, creating personalized image generation workflows.
+The model path to hugging face: https://huggingface.co/LinAnnJose/TomHolland
