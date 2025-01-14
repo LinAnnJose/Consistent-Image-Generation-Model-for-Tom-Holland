@@ -8,7 +8,6 @@ It performs three major tasks:
 
 Here’s a detailed breakdown of each section of the code:
 1. Mount Google Drive:
-
 Purpose: Mounts Google Drive so that you can access the files stored in it, including images or datasets used for training, and saves generated outputs.
 2. Package Installation:
 Purpose: Installs various necessary libraries:
